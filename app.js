@@ -38,11 +38,7 @@ app.post('/', (req, res) => {
 
     const options={
         method: "POST",
-<<<<<<< HEAD
         auth: process.env.API_KEY//as per mailchimp
-=======
-        auth: "Gaurav:68a8ffc2bbeccf62f28be59eda9f1a0d-us21"//as per mailchimp
->>>>>>> bb8c65f615ec5df060812fa3fc806f2888112ef2
     }
 
     console.log(options.auth);
