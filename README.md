@@ -1,8 +1,8 @@
 # MailChimpd
 
-# The Backend project made with using nodejs and expressjs storing the data to mailchimp server using mailchimp API !!
+--The Backend project made with using nodejs and expressjs storing the data to mailchimp server using mailchimp API !!
 
-# The project stores the data for @LIGHT INSIDE YOUR FRIDGE co
+--The project stores the data for @LIGHT INSIDE YOUR FRIDGE co
 
 ![Screenshot (289)](https://user-images.githubusercontent.com/59960697/202995903-439f0842-fb34-4e23-80c2-09a2a8dbb275.png)
 
