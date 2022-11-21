@@ -2,7 +2,7 @@ const express = require('express');
 const bodyPar=require('body-parser');
 const request= require('request');// to make https calls simple in nodejs
 const https= require('https');//requiring http module
-
+require('dotenv').config();
 
 
 const app=express();
@@ -38,9 +38,10 @@ app.post('/', (req, res) => {
 
     const options={
         method: "POST",
-        auth: "Gaurav:c2bbeccf62f28be59eda9f1a0d-us21"//as per mailchimp
+        auth: process.env.API_KEY//as per mailchimp
     }
 
+    console.log(options.auth);
     // cant use https get
     const request= https.request(url,options,function(response){
 
