@@ -1,0 +1,2 @@
+in express : HTTP POST requests to the specified path with the specified callback functions
+try again triggers a post request (method) that is called by server app.post and redirects to homePage
