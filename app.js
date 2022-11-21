@@ -38,7 +38,7 @@ app.post('/', (req, res) => {
 
     const options={
         method: "POST",
-        auth: "Gaurav:c2bbeccf62f28be59eda9f1a0d-us21"//as per mailchimp
+        auth: "Gaurav:68a8ffc2bbeccf62f28be59eda9f1a0d-us21"//as per mailchimp
     }
 
     // cant use https get
