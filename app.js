@@ -75,7 +75,7 @@ app.post("/failure",function(req,res){//when failure triggered redirect to homeP
      res.redirect('/');
 })
 
-app.listen(process.env.PORT, || 3000, () => {//both on railway and locally
+app.listen(process.env.PORT || 3000, () => {//both on railway and locally
     console.log(`Server started on port: 3002`);
 });
 
